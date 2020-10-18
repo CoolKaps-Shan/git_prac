@@ -1,0 +1,50 @@
+ 1236  git pull origin kp 
+ 1237  git merge origin/kp  
+ 1238  git merge origin/master 
+ 1239  git merge origin/kp 
+ 1240  git merge kp 
+ 1241  ls
+ 1242  git checkout bk 
+ 1243  ls
+ 1244  vim second.py 
+ 1245  git pull origin master 
+ 1246  ls
+ 1247  vim second.py 
+ 1248  git status 
+ 1249  git push
+ 1250  git checkout bk 
+ 1251  ls
+ 1252  vim third.py 
+ 1253  git status 
+ 1254  git add .
+ 1255  git commit -m "added new config in third.py"
+ 1256  git push origin bk 
+ 1257  git pull origin bk
+ 1258  git pull origin master 
+ 1259  ls
+ 1260  git push origin bk 
+ 1261  git branch
+ 1262  git branch -r
+ 1263  git checkout 
+ 1264  git branch
+ 1265  git checkout kp 
+ 1266  git push
+ 1267  git pull origin kp
+ 1268  git branch
+ 1269  vim third.py 
+ 1270  git checkout bk 
+ 1271  vim third.py 
+ 1272  git add .
+ 1273  git commit -m "dono"
+ 1274  git push
+ 1275  git checkout kp 
+ 1276  git push
+ 1277  git status
+ 1278  ls
+ 1279  vim third.py 
+ 1280  ls
+ 1281  vim third.py 
+ 1282  git pull origin kp 
+ 1283  vim third.py 
+ 1284  history 50
+ 1285  history 50 > kp_git_tutorials.txt
